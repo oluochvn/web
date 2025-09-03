@@ -1,0 +1,18 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+background-color: black;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+}
+nav{
+	display: flex;
+	align-content: centre;
+	justify-content: space-between;
+
+	
+}
