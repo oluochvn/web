@@ -1,0 +1,103 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	color:white;
+}body{
+	background:black;
+}
+.div1{
+	background: #0A0A0A;
+	width: 100%;
+	
+	
+}
+.header{
+	font-weight: bold;
+	padding: 22px;
+	color: white;
+	font-family: "Bowlby One SC", sans-serif;
+
+}
+nav{
+	display:flex;
+	justify-content: space-between;
+	align-content: center;
+	list-style-type: none;
+
+}
+nav ul li{
+	display:inline-block;
+	padding:22px;
+
+}
+nav ul li a{
+	color:white;
+	font-weight:bold;
+
+}
+nav ul li a:hover{
+	color: red;
+	transition: .1s;
+}
+span{
+	color: red;
+}
+.active a{
+    color:red;
+}
+.div2{
+	display:flex;
+	justify-content:center;
+	align-items: centre;
+	padding:200px 0px 0px;
+}
+.vin{
+  padding:20px;
+  font-size: 3.5em;
+  color: white;
+  font-family: "Iceberg", sans-serif;
+  font-weight:bold;
+}
+.drole{
+	display:flex;
+	justify-content:center;
+	align-items: centre;
+
+
+}
+.role{
+	font-size:1.1em;
+	border: solid 12px black;
+	padding: 12px;
+	border-radius: 24px;
+	font-weight:bold;
+	background-color: red;
+	color: white;
+}
+.container{
+	display: flex;
+	padding:20px;
+}
+.main{
+	flex: 2;
+	padding:20px;
+	
+	height:40vh;
+	justify-content:centre;
+	align-content:center;
+
+
+
+
+}
+.aside{
+	flex: 3;
+	padding: 20px;
+	height:40vh;
+	border: solid;
+
+}
+img{
+
+}
