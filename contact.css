@@ -1,0 +1,106 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	color:white;
+}body{
+	background:black;
+}
+.div1{
+	background: #0A0A0A;
+	width: 100%;
+	
+	
+}
+.header{
+	font-weight: bold;
+	padding: 22px;
+	color: white;
+	font-family: "Bowlby One SC", sans-serif;
+}
+span{
+	color: red;
+}
+.div1{
+	background: #0A0A0A;
+	width: 100%;
+	
+	
+}
+nav{
+	display:flex;
+	justify-content: space-between;
+	align-content: center;
+	list-style-type: none;
+
+}
+nav ul li{
+	display:inline-block;
+	padding:22px;
+
+}
+nav ul li a{
+	color:white;
+	font-weight:bold;
+
+}
+nav ul li a:hover{
+	color: red;
+	transition: .1s;
+}
+.active a{
+    color:red;
+}
+.container{
+	display: flex;
+	height:75vh;
+}
+.main{
+	flex: 3;
+	justify-content: center;
+	align-items: centre;
+	text-align: center;
+	padding-top: 12%;
+	background-color: #0d0d0d;
+}
+.aside{
+	flex: 3;
+	justify-content: center;
+	align-items: centre;
+	text-align: center;
+	background-color:#1b1b1b;
+}
+
+
+.aside h1{
+	padding:59px;
+}
+input{
+    padding: 12px;
+    width: 50%;
+    margin: 12px;
+    color: black;
+}
+button{
+	margin: 24px;
+	border: solid 3px ;
+	color:beige;
+	font-weight:bold;
+	padding: 12px;
+	width: 30%;
+	background-color:#0c0c0c;
+}
+.name{
+	color: black;
+}
+.message{
+	height: 7vh;
+
+    
+}
+.main h1{
+	padding-top: 27px;
+}
+.main p{
+
+}
