@@ -1,0 +1,101 @@
+*{
+	color: white;
+	margin: 0px;
+}
+.header{
+	background: black;
+	height: 15vh;
+}
+.header1{
+	margin-left: 33px;
+	align-content: center;
+	font-family: "Modern Antiqua", serif;
+	font-weight: 400;
+    font-style: normal;
+
+}
+
+.container{
+	height: 80vh;
+	display: flex;
+	background-color: black;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	list-style-type: none;
+	cursor:pointer;
+}
+nav ul li{
+	display:inline-block;
+	padding:22px;
+}
+nav ul li a{
+	font-family: "Google Sans Code", monospace;
+	font-size: 1.2em;
+	text-decoration: none;
+
+}
+nav ul li a:hover{
+	color: red;
+	transition: .1s;
+	text-decoration: underline;
+}
+.container{
+	display: flex;
+	height:80vh;
+}
+.main{
+	flex: 3;
+	justify-content: center;
+	align-items: centre;
+	text-align: center;
+	padding-top: 12%;
+	background-color: #0d0d0d;
+}
+.aside{
+	flex: 3;
+	justify-content: center;
+	align-items: centre;
+	text-align: center;
+	background-color:#1b1b1b;
+}
+
+
+.aside h1{
+	padding:59px;
+}
+input{
+    padding: 12px;
+    width: 50%;
+    margin: 12px;
+    color: black;
+}
+button{
+	margin: 24px;
+	border: solid 3px ;
+	color:beige;
+	font-weight:bold;
+	padding: 12px;
+	width: 30%;
+	background-color:#0c0c0c;
+}
+.name{
+	color: black;
+}
+.message{
+	height: 7vh;
+
+    
+}
+.main h1{
+	padding-top: 27px;
+}
+.main p{
+
+}
+.footer{
+	background-color: #0F0E0E;
+	height: 5vh;
+}
