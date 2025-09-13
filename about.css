@@ -1,0 +1,77 @@
+*{
+	color: white;
+	margin: 0px;
+}
+.header{
+	background: black;
+	height: 15vh;
+}
+.header1{
+	margin-left: 33px;
+	align-content: center;
+	font-family: "Modern Antiqua", serif;
+	font-weight: 400;
+    font-style: normal;
+
+}
+
+.container{
+	height: 80vh;
+	display: flex;
+	background-color: black;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	list-style-type: none;
+	cursor:pointer;
+}
+nav ul li{
+	display:inline-block;
+	padding:22px;
+}
+nav ul li a{
+	font-family: "Google Sans Code", monospace;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+nav li a:hover{
+	text-decoration: underline;
+	color: darkred;
+	transition: 4s;
+}
+.content{
+	flex:3;
+	padding: 12px;
+	background-color:black;
+	border-radius:22px;
+}
+.description{
+	display: none;
+	padding: 12px;
+	font-size: 2.3em;
+	margin-left: 10%;
+
+}
+h2{
+	text-align: center;
+	font-weight: bold;
+	padding: 12px;
+}
+.aside{
+	flex: 3;
+	background-repeat: no-repeat;
+	
+	background-size: 100%;
+}
+.footer{
+	background-color: #0F0E0E;
+	height: 5vh;
+}
+span{
+	color:red;
+}
+.nname{
+	color: navajowhite;
+}
