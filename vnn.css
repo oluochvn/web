@@ -1,0 +1,75 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+body html{
+	height: 100%;
+}
+.header{
+	background: floralwhite;
+	display: flex;
+	justify-content: space-between;
+	padding: 11px;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	list-style-type: none;
+	cursor:pointer;
+
+
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 13px;
+	font-size:1.4em ;
+	font-family: "Caveat", cursive;
+
+}
+.head{
+	justify-content: flex-start;
+	padding: 13px;
+	font-family: "Caveat", cursive;
+
+}
+.header nav{
+	justify-content: space-between;
+}
+.navv{
+	padding: 10px;
+}
+.ccontent{
+	height: 60vh;
+	padding-top: 10vh;
+	text-align: center;
+	font-size: 2.5em;
+	font-family: "Story Script", sans-serif;
+	font-style: normal;
+	background-image: url(vnn3.jpg);
+	background-size: cover;
+	color: whitesmoke;
+	
+
+}
+a{
+	text-decoration: none;
+	color: red;
+}
+.name{
+	color: red;
+}
+.footer{
+	display: flex;
+	justify-content: center;
+}
+img{
+	padding: 23px;
+
+
+}
+
+
+
+
