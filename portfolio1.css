@@ -1,0 +1,138 @@
+*{
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+
+
+}
+body{
+	background-image: url(background.jpg);
+	background-size: cover;
+
+}
+.main{
+	height: 100vh;
+
+}
+.header{
+	height: 15vh;
+	background-image: url(background.jpg);
+	display: flex;
+	border-radius: 36px;
+	justify-content: space-between;
+	width: 100%;
+}
+.logo{
+		align-content: center;
+		padding-left: 10vh;
+		font-size: 1.9em;
+		 font-family: "Jolly Lodger", system-ui;
+		font-weight: <weight>;
+		color: red;
+ }
+
+}
+nav{
+display: flex;
+align-items: center;
+
+
+
+
+}
+nav ul li{ 
+	display: inline-block;
+	align-content: center;
+	padding: 50px;
+	font-size: 1.5em;
+	font-family: "Smooch Sans", sans-serif;
+
+}
+.header nav{
+	align-content: center;
+}
+.material-symbols-outlined{
+	align-content: center;
+	padding-right: 10vh;
+	color: red;
+}
+nav li a:hover{
+	color: red;
+	transition: 0.3s;
+	cursor:pointer;
+}
+.navdiv{
+	background-image: url("background.jpg");
+	border-bottom:solid 1px red;
+	border-radius: 50px;
+
+}
+.container{
+	display: flex;
+	height: 70vh;
+	width: 100%;
+	    background-image: url("background.jpg");
+}
+.content {
+    flex: 3;
+    text-align: left;
+    align-content: center;
+
+}
+.para{
+	color: #DCD6F7;
+	font-size: 1.4em;
+	text-align: left;
+	padding: 33px;
+}
+.welcome {
+    font-size: 3.4em;
+    color: #708993;
+    text-align: left;
+    padding: 7vh;
+    padding-top:14px;
+}
+
+.text {
+    color: #DBE2EF;
+}
+
+.web {
+    color: white;
+}
+.aside{
+	flex:2;
+	align-content: center;
+	text-align: center;
+	background-color: black;
+
+}
+.name2{
+	color: red;
+}
+	
+button{
+	padding: 22px 12px 19px;
+	text-align: center;
+	color: white;
+	background-image: url(background.jpg);
+	border: solid 3px white;
+}
+	
+
+}
+.footer{
+	height: 15vh;
+	background-image: url(background.jpg);
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+
+
+	
+
+}
+hr{
+	color: green;
+}

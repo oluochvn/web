@@ -1,0 +1,92 @@
+*{
+	color: white;
+	margin: 0px;
+	text-decoration: none;
+}
+.header{
+	background: black;
+	height: 15vh;
+}
+.header1{
+	margin-left: 33px;
+	align-content: center;
+	font-family: "Modern Antiqua", serif;
+	font-weight: 400;
+    font-style: normal;
+
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	list-style-type: none;
+	cursor:pointer;
+}
+nav ul li{
+	display:inline-block;
+	padding:22px;
+}
+nav ul li a{
+	font-family: "Google Sans Code", monospace;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	text-decoration: underline;
+	transition: 4s;
+}
+.head1{
+
+	font-size: 4.5em;
+	margin-left: 10%;
+	margin-top: 10%;
+	font-weight: bold;
+}
+.container{
+	background: black;
+	height: 30vh;
+	width: 100%;
+	display: flex;
+	padding: 12px;
+	text-align: center;
+	align-items: center;
+}
+.one1{
+	background: red;
+	padding: 12px;
+	flex: 2;
+	border: solid 3px white;
+	cursor: pointer;
+
+
+}
+.two2{
+	padding: 12px;
+	border: solid 3px white;
+	flex: 2;
+
+}
+.container2{
+	background-image: url(backg.jpg);
+	height: 70vh;
+	width: 100%;
+	display: flex;
+	padding: 12px;
+	text-align: center;
+	align-items: center;
+}
+.three3{
+
+	padding: 12px;
+	flex: 2;
+	border: solid 3px white;
+	cursor: pointer;
+
+
+}
+.four4{
+	padding: 12px;
+	border: solid 3px white;
+	flex: 2;
+
+}
